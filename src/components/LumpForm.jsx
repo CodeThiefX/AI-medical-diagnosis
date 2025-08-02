@@ -101,7 +101,7 @@ const LumpForm = () => {
             <div className="flex items-center space-x-2">
               <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
               <span className="text-sm font-medium text-gray-600">
-                AI Analysis Ready
+                Analysis Ready
               </span>
             </div>
           </div>
@@ -110,7 +110,7 @@ const LumpForm = () => {
             Patient Information
           </h2>
           <p className="text-center text-gray-600 max-w-md mx-auto">
-            Complete the form below for your personalized AI medical assessment
+            Complete the form below for your personalized medical assessment
           </p>
         </div>
 
@@ -353,7 +353,7 @@ const LumpForm = () => {
                 {isLoading ? (
                   <>
                     <LoadingSpinner size="small" text="" />
-                    <span className="ml-3">AI Analyzing Your Symptoms...</span>
+                    <span className="ml-3">Analyzing Your Symptoms...</span>
                   </>
                 ) : (
                   <>
@@ -370,7 +370,7 @@ const LumpForm = () => {
                         d="M13 10V3L4 14h7v7l9-11h-7z"
                       />
                     </svg>
-                    Get AI Diagnosis
+                    Get Diagnosis
                   </>
                 )}
               </div>

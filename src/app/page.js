@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import LumpForm from '../components/LumpForm';
-import ErrorBoundary from '../components/ErrorBoundary';
+import LumpForm from "../components/LumpForm";
+import ErrorBoundary from "../components/ErrorBoundary";
 
 export default function Home() {
   return (
@@ -19,13 +19,23 @@ export default function Home() {
             {/* Hero Section */}
             <div className="text-center mb-12">
               <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl mb-6 shadow-lg">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                <svg
+                  className="w-8 h-8 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
                 </svg>
               </div>
 
               <h1 className="text-5xl sm:text-6xl font-bold bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-6 leading-tight">
-                AI Medical
+                Breast Cancer
                 <br />
                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                   Diagnosis
@@ -33,7 +43,8 @@ export default function Home() {
               </h1>
 
               <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-                Advanced AI-powered preliminary assessment with instant results and personalized recommendations
+                Advanced preliminary assessment with instant results and
+                personalized recommendations
               </p>
 
               {/* Stats */}

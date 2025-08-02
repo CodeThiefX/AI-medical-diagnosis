@@ -72,7 +72,7 @@ const ResultDisplay = ({ result, onReset }) => {
                 <h2 className="text-2xl sm:text-3xl font-bold text-white">
                   Analysis Complete
                 </h2>
-                <p className="text-green-100">AI-powered medical assessment</p>
+                <p className="text-green-100">Medical assessment</p>
               </div>
             </div>
             <button
